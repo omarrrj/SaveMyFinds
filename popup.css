@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 10px;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #131921; /* Amazon's header color */
+  margin-bottom: 10px;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #f0c14b; /* Amazon button color */
+  color: #111; /* Amazon button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select:hover, button:hover {
+  background-color: #e3a007; /* Darker Amazon button color on hover */
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+#item-preview {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #131921; /* Amazon's header color */
+}
+
+/* Shopping List Styles */
+#shopping-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#shopping-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#shopping-list li a {
+  text-decoration: none;
+  color: #131921; /* Amazon's header color */
+  font-size: 0.9rem;
+  flex-grow: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#shopping-list li a:hover {
+  color: #007185; /* Amazon link hover color */
+}
+
+/* Delete Button Styles */
+/* Delete Button Styles */
+.delete-item {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #ff0000; /* Red color for the delete icon */
+}
+
+.delete-item:hover {
+  color: #cc0000; /* Darker red color for hover effect */
+}
+
+.delete-item i {
+  font-size: 1.2rem;
+}
+
